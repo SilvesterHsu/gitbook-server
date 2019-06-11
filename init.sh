@@ -1,6 +1,5 @@
 #!/bin/bash
 
-cd /work
-cp /root/book.json /work
+cp -r /srv/* /work/
 gitbook init
 gitbook serve
