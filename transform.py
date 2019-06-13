@@ -1,4 +1,4 @@
-#!/anaconda3/bin/python
+#!/usr/local/bin/python
 import re
 import os
 
