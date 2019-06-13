@@ -7,6 +7,7 @@ RUN gitbook -V
 
 RUN mkdir /work
 COPY book.json /srv/
+COPY transform.py /srv/
 RUN cd /srv/ && \
     gitbook install
 COPY copyPluginAssets.js /root/.gitbook/versions/3.2.3/lib/output/website/
